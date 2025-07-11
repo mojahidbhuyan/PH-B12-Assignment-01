@@ -159,6 +159,79 @@ body{
 
 /* -----User section style end----- */
 
+/* Review Section style Start */
+
+.review{
+    text-align:center;
+    padding: 130px 0 100px 0;
+}
+
+.review-mini{
+    text-align: left;
+    background: white;
+    border: 1px solid #f2eded;
+    border-radius: 14px;
+    padding: 24px;
+    width: 366px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.review-main{
+    width: 1140px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    margin:  0 auto;
+}
+.review-child-contain{
+    display: flex;
+    gap: 10px;
+    justify-content: start;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.review-h1{
+    font-size: 24px;
+    font-weight: bold;
+    color:#1E1E1E
+}
+
+.review-p{
+    font-size: 16px;
+    font-weight: 400px;
+    color:#1E1E1E;
+
+}
+
+.review-child-contain img{
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+}
+
+.review-child-contain h3{
+    font-weight: bold;
+    font-size: 16px;
+    color:#757575
+}
+
+/* Review Section style End */
+
+/* Focus Section style Start */
+
+
+
+/* Focus Section style end */
+
+
+
+
 
 
 
