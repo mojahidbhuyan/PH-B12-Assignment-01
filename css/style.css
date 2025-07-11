@@ -1,0 +1,50 @@
+
+.raleway-normal{
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.raleway-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* -----Shared Style----- */
+
+.main-button{
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 15px;
+    padding: 12px 36px;
+    color: #FFFFFF;
+    background-color: #4E47FF;
+    border: none;
+    width: fit-content;
+
+}
+
+/* -----Header Style start----- */
+
+/* Serial = 01 -----Nav style Start----- */
+
+.nav{
+    display: flex;
+    width: 1140px;
+    padding: 50px 0px;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.logo{
+    width: 150px;
+}
+
+/* -----Nav style End----- */
+
+
+
+
+
