@@ -5,10 +5,15 @@
     font-style: normal;
 }
 
-.raleway-normal {
+.inter-normal {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
 }
 
 /* -----Shared Style----- */
@@ -29,6 +34,7 @@
 
 /* Serial = 01 -----Nav style Start----- */
 
+
 .nav{
     display: flex;
     width: 1140px;
@@ -43,6 +49,36 @@
 }
 
 /* -----Nav style End----- */
+
+/* Serial = 02 -----Banner style Start----- */
+
+.banner-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 698px;
+    margin-top: -180px;
+     background-image: url(../assets/Hero-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.banner-child{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.banner-heading{
+    font-weight: bold;
+    font-size: 65px;
+    text-align: center;
+    width: 905px;
+    padding-top: 150px;
+}
 
 
 
